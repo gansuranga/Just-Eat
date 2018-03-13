@@ -1,0 +1,22 @@
+﻿@model IEnumerable<JustEat.CodingTest.ViewModels.Restaurant>
+<div class="row restaurant-list">
+    @if (Model != null)
+    {
+        foreach (var restaurant in Model)
+        {
+            <div class="restaurant-template">
+                <p>Restaurant Name: @restaurant.Name</p>
+                <p>Restaurant Rating: @restaurant.Rating</p>
+                <p>
+                    Cuisine Type:
+                    <ul>
+                        @foreach (var type in restaurant.CuisineTypes)
+                        {
+                            <li>@type.Name</li>
+                        }
+                    </ul>
+                </p>
+            </div>
+        }
+    }
+</div>

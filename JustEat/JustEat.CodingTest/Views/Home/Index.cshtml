@@ -1,0 +1,22 @@
+﻿@model JustEat.CodingTest.ViewModels.RestaurantViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2>Just Eat Restaurant Search</h2>
+    <p class="lead">Type the restaurant out code you want to search into the text box then press submit</p>
+    @using (Html.BeginForm("SearchRestaurant", "Home", FormMethod.Get))
+    {
+        @Html.ValidationSummary(true)
+        @Html.TextBoxFor(model => model.OutCode)
+        @Html.ValidationMessageFor(model => model.OutCode)
+        <input type="submit" value="Submit" class="btn btn-primary btn-lg" />
+    }
+</div>
+
+@if (Model != null && Model.Restaurants != null && Model.Restaurants.Count > 0)
+{
+    @Html.Partial("_RestaurantList", Model.Restaurants)
+}

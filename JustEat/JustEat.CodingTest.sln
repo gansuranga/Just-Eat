@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustEat.CodingTest", "JustEat.CodingTest\JustEat.CodingTest.csproj", "{20C7C6BF-610A-48B1-A918-7F8400C8C8FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JustEat.Library", "JustEat.Library", "{C1E8DFF7-4E81-40DD-AFE5-9B08AD5BE812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustEat.Business", "..\JustEat.Library\JustEat.Business\JustEat.Business.csproj", "{089CE0DB-8D58-49E3-8F78-636384CD2CE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustEat.Objects", "..\JustEat.Library\JustEat.Objects\JustEat.Objects.csproj", "{F34CEF01-C975-4652-A49E-C47332B7EA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustEat.CodingTest.Tests", "JustEat.CodingTest.Tests\JustEat.CodingTest.Tests.csproj", "{7BC51D92-B07C-4AC6-8103-E2691C05F9AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustEat.Library.Tests", "..\JustEat.Library\JustEat.Library.Tests\JustEat.Library.Tests.csproj", "{40FE7826-4695-4DA8-A97A-2C0136796C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustEat.Common", "..\JustEat.Library\JustEat.Common\JustEat.Common.csproj", "{1298062F-7C38-4E39-A469-E4B195DADBD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4CCDEE5C-331B-42F0-A994-17F231712D25}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustEat.Bootstrapper", "..\JustEat.Library\JustEat.Bootstrapper\JustEat.Bootstrapper.csproj", "{96EB71D2-9A41-40DA-A338-A35F4D626959}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20C7C6BF-610A-48B1-A918-7F8400C8C8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C7C6BF-610A-48B1-A918-7F8400C8C8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C7C6BF-610A-48B1-A918-7F8400C8C8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C7C6BF-610A-48B1-A918-7F8400C8C8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{089CE0DB-8D58-49E3-8F78-636384CD2CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089CE0DB-8D58-49E3-8F78-636384CD2CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089CE0DB-8D58-49E3-8F78-636384CD2CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089CE0DB-8D58-49E3-8F78-636384CD2CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34CEF01-C975-4652-A49E-C47332B7EA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34CEF01-C975-4652-A49E-C47332B7EA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34CEF01-C975-4652-A49E-C47332B7EA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34CEF01-C975-4652-A49E-C47332B7EA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC51D92-B07C-4AC6-8103-E2691C05F9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC51D92-B07C-4AC6-8103-E2691C05F9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC51D92-B07C-4AC6-8103-E2691C05F9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC51D92-B07C-4AC6-8103-E2691C05F9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FE7826-4695-4DA8-A97A-2C0136796C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FE7826-4695-4DA8-A97A-2C0136796C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FE7826-4695-4DA8-A97A-2C0136796C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FE7826-4695-4DA8-A97A-2C0136796C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1298062F-7C38-4E39-A469-E4B195DADBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1298062F-7C38-4E39-A469-E4B195DADBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1298062F-7C38-4E39-A469-E4B195DADBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1298062F-7C38-4E39-A469-E4B195DADBD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96EB71D2-9A41-40DA-A338-A35F4D626959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EB71D2-9A41-40DA-A338-A35F4D626959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EB71D2-9A41-40DA-A338-A35F4D626959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EB71D2-9A41-40DA-A338-A35F4D626959}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{089CE0DB-8D58-49E3-8F78-636384CD2CE0} = {C1E8DFF7-4E81-40DD-AFE5-9B08AD5BE812}
+		{F34CEF01-C975-4652-A49E-C47332B7EA8A} = {C1E8DFF7-4E81-40DD-AFE5-9B08AD5BE812}
+		{40FE7826-4695-4DA8-A97A-2C0136796C8A} = {C1E8DFF7-4E81-40DD-AFE5-9B08AD5BE812}
+		{1298062F-7C38-4E39-A469-E4B195DADBD2} = {C1E8DFF7-4E81-40DD-AFE5-9B08AD5BE812}
+		{96EB71D2-9A41-40DA-A338-A35F4D626959} = {C1E8DFF7-4E81-40DD-AFE5-9B08AD5BE812}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal

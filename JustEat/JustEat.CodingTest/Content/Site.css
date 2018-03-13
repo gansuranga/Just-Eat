@@ -1,0 +1,50 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background: linear-gradient(135deg, #0e7fef 0%, #00a7c9 44%, #00d3a2 100%), linear-gradient(45deg, #f20e6d 0%, rgba(242, 14, 109, 0.93) 7%, rgba(0, 211, 162, 0) 100%);
+    
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.restaurant-list {
+    min-height: 500px;
+}
+
+.restaurant-template {
+    font-size: 2rem;
+    font-weight: 200;
+    padding: 4rem 4rem;
+    margin: 20px;
+    background: #fff;
+}
+
+.restaurant-template ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+}
+
+.restaurant-template li {
+    padding: 4px 20px;
+}
+
